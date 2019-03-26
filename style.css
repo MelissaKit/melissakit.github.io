@@ -1,4 +1,37 @@
+/*      Fonts       */
+
+@font-face {
+    font-family: 'Mont';
+    src: url('fonts/Mont-HeavyDEMO.woff');
+}
+
 body{
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffffff;
+}
+
+main{
+    padding-top: 100px;
+}
+
+.rect{
+    width: 32px;
+    height: 26px;
+    display: inline-block;
+    background: #000000;
+}
+
+.logo{
+    padding: 37px 0;
+}
+
+.header-block, main, footer{
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -13,6 +46,19 @@ body{
     width: 50%;
     height: 100px;
     background: #ffffff;
+}
+.logo-container span{
+    font-family: Mont, serif;
+    font-size: 30px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.banner{
+    height: 924px;
+    width: 100%;
+    background: url('images/Img-banner.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 /* burger menu */
@@ -163,11 +209,4 @@ a {
     transform: translateY(-50%) scaleY(5);
     transition: 0.5s;
     border-radius: 2px;
-}
-
-.banner{
-    height: 924px;
-    width: 100%;
-    background: url('images/Img-banner.jpg') no-repeat center center;
-    background-size: cover;
 }
