@@ -62,11 +62,6 @@ main{
     background-size: cover;
 }
 
-/* burger menu */
-* {
-    box-sizing: border-box;
-}
-
 a {
     text-decoration: none;
 }
@@ -121,15 +116,30 @@ nav{
     visibility: hidden;
     opacity: 0;
     transition: visibility 0.5s, opacity 0.5s linear;
-
+    float: right;
+    width: 365px;
 }
 
 nav.active{
     visibility: visible;
     opacity: 1;
-    transition: visibility 0s, opacity 1.5s linear;
+    transition: visibility 0s, opacity 1s linear;
 }
 
 nav a{
     display: block;
+    height: 160px;
+    background: #FFF824;
+    margin-bottom: 12px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 160px;
+}
+
+nav a:first-child{
+    margin-top: 38px;
 }
