@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="style.css" rel="stylesheet">
+    <script defer src="jQuery.js"></script>
     <script defer src="script.js"></script>
 </head>
 <body>
@@ -17,10 +18,12 @@
         </div>
         <div class="menu-block">
             <div class="container">
-                <input id="toggle" type="checkbox">
-                <label class="toggle-container" for="toggle">
-                    <span class="button button-toggle"></span>
-                </label>
+                <div class="menu-icons">
+                    <span class="open-close">
+                        <img src="images/close.svg" class="close"/>
+                        <img src="images/menu.svg" class="active open"/>
+                    </span>
+                </div>
 
                 <nav class="nav">
                     <a class="nav-item" href="">До молока</a>
