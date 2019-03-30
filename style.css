@@ -4,6 +4,10 @@
     font-family: 'Mont';
     src: url('fonts/Mont-HeavyDEMO.woff');
 }
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Mont-HeavyDEMO.woff');
+}
 
 body{
     margin: 0;
@@ -55,11 +59,24 @@ main{
     text-transform: uppercase;
 }
 
-.banner{
+.content-block{
     height: 924px;
     width: 100%;
+}
+
+.banner{
     background: url('images/Img-banner.jpg') no-repeat center center;
     background-size: cover;
+}
+.blue-block{
+    background: #2F006B;
+}
+
+.red-block{
+    background: #C12E32;
+}
+.brown-block{
+    background: #5A5024;
 }
 
 a {
@@ -131,7 +148,7 @@ nav a{
     height: 160px;
     background: #FFF824;
     margin-bottom: 12px;
-    font-family: Roboto;
+    font-family: Roboto, serif;
     text-transform: uppercase;
     text-align: center;
     font-style: normal;
@@ -142,4 +159,25 @@ nav a{
 
 nav a:first-child{
     margin-top: 38px;
+}
+
+nav .nav-item:nth-child(1){
+    color: #C12E32;
+    background: linear-gradient(to right, #C12E32 0%, #C12E32 20px,  #FFF824 20px ,#FFF824 100%)
+}
+nav .nav-item:nth-child(2){
+    color:#2F006B;
+    background: linear-gradient(to right, #2F006B 0%, #2F006B 20px,  #FFF824 20px ,#FFF824 100%)
+}
+nav .nav-item:nth-child(3){
+    color:#5A5024;
+    background: linear-gradient(to right, #5A5024 0%, #5A5024 20px,  #FFF824 20px ,#FFF824 100%)
+}
+nav .nav-item:nth-child(4){
+    color: #000;
+    background: linear-gradient(to right, #000 0%, #000 20px,  #FFF824 20px ,#FFF824 100%)
+}
+
+.start{
+    display: none;
 }
