@@ -1,7 +1,7 @@
 var $ = jQuery;
 
-$('.menu-icons img').on('click', function (e) {
-    $('.menu-icons img, nav').toggleClass('active');
+$('#menuToggle input').on('click', function (e) {
+    $('.modal').toggleClass('active');
 });
 
-$('.start').show();
+$('.modal').show();

@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Honey</title>
     <link href="style.css" rel="stylesheet">
     <script defer src="jQuery.js"></script>
     <script defer src="script.js"></script>
@@ -10,27 +11,36 @@
 <body>
 <header>
     <div class="header-block">
+        <div class="menu-block start">
+                <div class="nav-menu">
+                    <a class="nav-item" href="#to-milk">До молока</a>
+                    <a class="nav-item" href="#before-bed">Перед сном</a>
+                    <a class="nav-item" href="#for-brain">Для мозку</a>
+                    <a class="nav-item" href="#contacts">Контакти</a>
+                </div>
+        </div>
+
+        <nav role="navigation" class="nav">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="#to-milk"><li>До молока</li></a>
+                    <a href="#before-bed"><li>Перед сном</li></a>
+                    <a href="#for-brain"><li>Для мозку</li></a>
+                    <a href="#contacts"><li>Контакти</li></a>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="modal"></div>
+
         <div class="logo-container">
             <div class="logo">
                 <span class="rect"></span>
                 <span>Рейва</span>
-            </div>
-        </div>
-        <div class="menu-block start">
-            <div class="container">
-                <div class="menu-icons">
-                    <span class="open-close">
-                        <img src="images/close.svg" class="close"/>
-                        <img src="images/menu.svg" class="active open"/>
-                    </span>
-                </div>
-
-                <nav class="nav">
-                    <a class="nav-item" href="">До молока</a>
-                    <a class="nav-item" href="">Перед сном</a>
-                    <a class="nav-item" href="">Для мозку</a>
-                    <a class="nav-item" href="">Контакти</a>
-                </nav>
             </div>
         </div>
     </div>
@@ -39,18 +49,18 @@
     <div class="banner content-block">
 
     </div>
-    <div class="blue-block content-block">
+    <div class="red-block content-block" id="to-milk">
 
     </div>
-    <div class="red-block content-block">
+    <div class="blue-block content-block" id="before-bed">
 
     </div>
-    <div class="brown-block content-block">
+    <div class="brown-block content-block" id="for-brain">
 
     </div>
 </main>
 <footer>
-    <div class="footer banner content-block">
+    <div class="footer banner content-block" id="contacts">
 
     </div>
 </footer>
