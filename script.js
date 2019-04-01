@@ -4,4 +4,4 @@ $('#menuToggle input').on('click', function (e) {
     $('.modal').toggleClass('active');
 });
 
-$('.modal').show();
+$('.modal, #menuToggle').show();
