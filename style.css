@@ -20,6 +20,10 @@ header{
     background: #ffffff;
 }
 
+#menuToggle {
+    display: none;
+}
+
 .rect{
     width: 32px;
     height: 26px;
@@ -167,7 +171,6 @@ a {
 
     #menuToggle
     {
-        display: none;
         position: relative;
         z-index: 1;
 
