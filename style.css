@@ -20,6 +20,18 @@ header{
     background: #ffffff;
 }
 
+.first-row, .second-row{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact-icons .icon img:hover{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    transform: translateY(-3px);
+    border-radius: 50%;
+}
+
 #menuToggle {
     display: none;
 }
@@ -55,11 +67,6 @@ header{
     text-transform: uppercase;
 }
 
-.content-block{
-    height: 924px;
-    width: 100%;
-}
-
 .banner{
     background: url('images/Img-banner.jpg') no-repeat center center;
     background-size: cover;
@@ -85,10 +92,31 @@ a {
         padding-top: 100px;
     }
 
+    .content-block{
+        height: 924px;
+        width: 100%;
+    }
+
     .header-block {
         padding: 0 130px;
         height: 100px;
     }
+
+    .icon{
+        width: 180px;
+        height: 180px;
+    }
+
+    footer .contact-icons{
+        width: 410px;
+        margin: 0 auto;
+        padding-top: 255px;
+    }
+
+    .first-row{
+        padding-bottom: 50px;
+    }
+
     nav.nav{
         display: none;
     }
@@ -338,6 +366,26 @@ a {
 @media only screen and (max-width: 767px ) {
     .logo-container span {
         font-size: 18px;
+    }
+
+    .content-block{
+        height: 510px;
+        width: 100%;
+    }
+
+    .icon{
+        width: 85px;
+        height: 85px;
+    }
+
+    footer .contact-icons{
+        width: 195px;
+        margin: 0 auto;
+        padding-top: 155px;
+    }
+
+    .first-row{
+        padding-bottom: 20px;
     }
 
     .rect {
