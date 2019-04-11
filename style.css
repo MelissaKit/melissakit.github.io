@@ -18,6 +18,7 @@ header{
     top: 0;
     width: 100%;
     background: #ffffff;
+    z-index: 1500;
 }
 
 .first-row, .second-row{
@@ -86,15 +87,40 @@ a {
     text-decoration: none;
 }
 
+.logo a, .logo:active, .logo:hover{
+    color: black;
+}
+
+.gallery img{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.thumbs{
+    margin-top: 25px;
+}
+
+.thumbs .slick-slide>div {
+    width: 95%;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 1024px ) {
+
+    .slider-block{
+        display: flex;
+    }
+
+    .slider-container{
+        width: 65%;
+    }
+
+    .info-container{
+        width: 35%;
+    }
 
     main{
         padding-top: 100px;
-    }
-
-    .content-block{
-        height: 924px;
-        width: 100%;
     }
 
     .header-block {
@@ -102,19 +128,12 @@ a {
         height: 100px;
     }
 
-    .icon{
-        width: 180px;
-        height: 180px;
+    .banner{
+        height: 924px;
     }
 
-    footer .contact-icons{
-        width: 410px;
-        margin: 0 auto;
-        padding-top: 255px;
-    }
-
-    .first-row{
-        padding-bottom: 50px;
+    .content-block{
+        padding: 100px 130px;
     }
 
     nav.nav{
@@ -160,15 +179,37 @@ a {
 }
 
 @media only screen and (min-width: 1250px ) {
-    .header-block {
+    .header-block{
         padding: 0 150px;
     }
+
+    .content-block{
+        padding: 100px 150px;
+    }
+
     .nav-item {
         width: 175px;
     }
 }
 
 @media only screen and (max-width: 1023px ) {
+
+    .content-block.banner{
+        height: 964px;
+    }
+
+    .slider-block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider-container{
+        padding: 60px 110px 50px;
+    }
+
+    .info-container{
+        width: 100%;
+    }
 
     .logo-container{
         padding-top: 4px;
@@ -363,14 +404,39 @@ a {
     }
 }
 
-@media only screen and (max-width: 767px ) {
+@media only screen and (min-width: 767px ){
+    .icon{
+        width: 180px;
+        height: 180px;
+    }
+
+    footer .contact-icons{
+        width: 410px;
+        margin: 0 auto;
+        padding-top: 255px;
+    }
+
+    .first-row{
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px )
+{
+    .content-block.banner{
+        height: 600px;
+    }
+
     .logo-container span {
         font-size: 18px;
     }
 
     .content-block{
-        height: 510px;
         width: 100%;
+    }
+
+    .slider-container {
+        padding: 40px 20px 40px;
     }
 
     .icon{
@@ -381,7 +447,7 @@ a {
     footer .contact-icons{
         width: 195px;
         margin: 0 auto;
-        padding-top: 155px;
+        padding-top: 202px;
     }
 
     .first-row{
