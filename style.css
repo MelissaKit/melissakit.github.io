@@ -69,7 +69,7 @@ header{
 }
 
 .banner{
-    background: url('images/Img-banner.jpg') no-repeat center center;
+    background: url('images/Img-banner.jpg') no-repeat center left;
     background-size: cover;
 }
 .blue-block{
@@ -109,7 +109,25 @@ a {
     margin: 0 auto;
 }
 
+.banner .title{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: normal;
+    padding-top: 150px;
+    padding-left: 55px;
+}
+
+.banner .title span{
+    display: block;
+}
+
 @media only screen and (min-width: 1024px ) {
+
+    .banner .title {
+        font-size: 72px;
+    }
 
     .slider-block{
         display: flex;
@@ -200,6 +218,7 @@ a {
 
     .content-block.banner{
         height: 964px;
+        background-position-x: -125px;
     }
 
     .slider-block{
@@ -408,6 +427,12 @@ a {
         opacity: 1;
         transition: visibility 0s, opacity 0.5s linear;
     }
+
+    .banner .title {
+        font-size: 48px;
+        padding-left: 80px;
+        padding-top: 250px;
+    }
 }
 
 @media only screen and (min-width: 767px ){
@@ -429,6 +454,13 @@ a {
 
 @media only screen and (max-width: 767px )
 {
+
+    .banner .title {
+        font-size: 18px;
+        padding-left: 20px;
+        padding-top: 170px;
+    }
+
     .content-block.banner{
         height: 600px;
     }
