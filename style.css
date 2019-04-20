@@ -87,6 +87,10 @@ a {
     text-decoration: none;
 }
 
+.icon{
+    cursor: pointer;
+}
+
 .logo a, .logo:active, .logo:hover{
     color: black;
 }
@@ -255,7 +259,7 @@ a {
     #menuToggle input
     {
         display: block;
-        width: 40px;
+        width: 30px;
         height: 32px;
         position: absolute;
         top: -7px;
@@ -272,7 +276,7 @@ a {
     #menuToggle span
     {
         display: block;
-        width: 33px;
+        width: 25px;
         height: 4px;
         margin-bottom: 5px;
         position: relative;
@@ -286,7 +290,8 @@ a {
 
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
         background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-        opacity 0.55s ease;
+        opacity 0.55s ease,
+        width 0.55s ease;
     }
 
     #menuToggle span:first-child
@@ -306,6 +311,7 @@ a {
     #menuToggle input:checked ~ span
     {
         opacity: 1;
+        width: 33px;
         transform: rotate(45deg) translate(-2px, -1px);
         background: #FFF824;;
     }
@@ -465,7 +471,7 @@ a {
 
     #menu {
         width: 170px;
-        padding-top: 115px;
+        padding-top: 120px;
         margin: -100px 0 0 -70px;
     }
 
@@ -490,6 +496,13 @@ a {
     #menu a:nth-child(4) li{
         color: #000;
         background: linear-gradient(to right, #FFF824 0%, #FFF824 160px,  #000 160px ,#000 100%)
+    }
+
+    .slider-block .slick-prev,
+    .slider-block .slick-next{
+        width: 12px;
+        height: 20px;
+        background-size: cover;
     }
 }
 

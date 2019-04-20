@@ -4,7 +4,10 @@ $('#menuToggle input').on('click', function (e) {
     $('.modal').toggleClass('active');
 });
 
-$('.modal, #menuToggle').show();
+$(document).ready(function () {
+    $('.modal, #menuToggle').show();
+});
+
 
 var sliders = {
     1: {slider : '.gallery.brown', nav: '.brown + .thumbs'},
@@ -21,12 +24,12 @@ $.each(sliders, function() {
         slidesToScroll: 1,
         arrows: true,
         fade: true,
+        infinite: false,
         asNavFor: this.nav,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    arrows: false,
                 }
             }
         ]
@@ -39,7 +42,8 @@ $.each(sliders, function() {
         dots: true,
         arrows: false,
         centerMode: false,
-        focusOnSelect: true
+        focusOnSelect: true,
+        infinite: false
     });
 });
 
