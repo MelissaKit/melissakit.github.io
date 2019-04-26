@@ -189,12 +189,13 @@ a {
     .title-container h2{
         margin: 0 0 15px;
         font-size: 48px;
+        line-height: 48px;
         text-transform: uppercase;
     }
 
     .text-content{
         font-size: 24px;
-        margin-bottom: 50px;
+        margin-bottom: 38px;
     }
 
     .price.desktop span{
