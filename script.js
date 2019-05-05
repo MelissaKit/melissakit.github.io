@@ -8,6 +8,26 @@ $(document).ready(function () {
     $('.modal, #menuToggle').show();
 });
 
+$('.nav-item, .logo a, #menu a').click(function (e) {
+    e.preventDefault();
+    var target = $(this.hash);
+    var offset = -100;
+    if(screen.width<=768) offset = -60;
+    if(target.hasClass('footer')) offset*=-1;
+    $('html, body').animate({
+        scrollTop: target.offset().top + offset
+    }, 1000);
+});
+
+$('.order').click(function () {
+    var target = $('#contacts');
+    var offset = 110;
+    if(screen.width<=768) offset = 60;
+    $('html, body').animate({
+        scrollTop: target.offset().top + offset
+    }, 1000);
+});
+
 
 var sliders = {
     1: {slider : '.gallery.brown', nav: '.brown + .thumbs'},
