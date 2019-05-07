@@ -13,7 +13,8 @@ $('.nav-item, .logo a, #menu a').click(function (e) {
     var target = $(this.hash);
     var offset = -100;
     if(screen.width<=768) offset = -60;
-    if(target.hasClass('footer')) offset*=-1;
+    if(target.hasClass('footer') ) offset*=-1;
+    if(target.attr('id') === 'main-block')  offset*=-2;
     $('html, body').animate({
         scrollTop: target.offset().top + offset
     }, 1000);
