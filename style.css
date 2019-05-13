@@ -69,7 +69,7 @@ header{
 }
 
 .banner{
-    background: url('images/banner.jpg') no-repeat center left;
+    background: url('http://drive.google.com/uc?export=view&id=1Q3T3zvripX5ooUrwXELXwHTibTdyTL5t') no-repeat center left;
     background-size: cover;
 }
 .blue-block{
@@ -136,17 +136,14 @@ a {
 }
 
 .banner .title{
-    font-family: Mont;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: normal;
+    width: 450px;
     padding-top: 150px;
     padding-left: 55px;
 }
 
-.banner .title span{
-    display: block;
+.title img{
+    width: 100%;
+    height: auto;
 }
 
 .action.order:hover{
@@ -201,7 +198,7 @@ a {
     }
 
     .text-content{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 38px;
     }
 
@@ -241,7 +238,7 @@ a {
         width: 135px;
         height: 60px;
         line-height: 55px;
-        background: #FFF824;
+        background: #FFB800;
         display: inline-block;
         font-family: Mont, serif;
         font-size: 18px;
@@ -255,19 +252,19 @@ a {
 
     .nav-item:nth-child(1){
         color: #C12E32;
-        background: linear-gradient( #FFF824 0% ,#FFF824 50px, #C12E32 50px, #C12E32 1000%)
+        background: linear-gradient( #FFB800 0% ,#FFB800 50px, #C12E32 50px, #C12E32 1000%)
     }
     .nav-item:nth-child(2){
         color:#2F006B;
-        background: linear-gradient(#FFF824 0%, #FFF824 50px,  #2F006B 50px ,#2F006B 100%)
+        background: linear-gradient(#FFB800 0%, #FFB800 50px,  #2F006B 50px ,#2F006B 100%)
     }
     .nav-item:nth-child(3){
         color:#5A5024;
-        background: linear-gradient( #FFF824 0%, #FFF824 50px,  #5A5024 50px ,#5A5024 100%)
+        background: linear-gradient( #FFB800 0%, #FFB800 50px,  #5A5024 50px ,#5A5024 100%)
     }
     .nav-item:nth-child(4){
         color: #000;
-        background: linear-gradient(#FFF824 0%, #FFF824 50px,  #000 50px ,#000 100%)
+        background: linear-gradient(#FFB800 0%, #FFB800 50px,  #000 50px ,#000 100%)
     }
 
     .nav-item:hover{
@@ -408,7 +405,7 @@ a {
         opacity: 1;
         width: 33px;
         transform: rotate(45deg) translate(-2px, -1px);
-        background: #FFF824;;
+        background: #FFB800;;
     }
 
     /*
@@ -456,25 +453,25 @@ a {
         font-family: Mont,serif;
         font-size: 24px;
         line-height: normal;
-        background: #FFF824;
+        background: #FFB800;
         margin-bottom: 7px;
     }
 
     #menu a:nth-child(1) li{
         color: #C12E32;
-        background: linear-gradient(to right, #FFF824 0%, #FFF824 300px,  #C12E32 300px ,#C12E32 100%)
+        background: linear-gradient(to right, #FFB800 0%, #FFB800 300px,  #C12E32 300px ,#C12E32 100%)
     }
     #menu a:nth-child(2) li{
         color:#2F006B;
-        background: linear-gradient(to right, #FFF824 0%, #FFF824 300px,  #2F006B 300px ,#2F006B 100%)
+        background: linear-gradient(to right, #FFB800 0%, #FFB800 300px,  #2F006B 300px ,#2F006B 100%)
     }
     #menu a:nth-child(3) li{
         color:#5A5024;
-        background: linear-gradient(to right, #FFF824 0%, #FFF824 300px,  #5A5024 300px ,#5A5024 100%)
+        background: linear-gradient(to right, #FFB800 0%, #FFB800 300px,  #5A5024 300px ,#5A5024 100%)
     }
     #menu a:nth-child(4) li{
         color: #000;
-        background: linear-gradient(to right, #FFF824 0%, #FFF824 300px,  #000 300px ,#000 100%)
+        background: linear-gradient(to right, #FFB800 0%, #FFB800 300px,  #000 300px ,#000 100%)
     }
 
     /*
@@ -505,7 +502,7 @@ a {
     }
 
     .banner .title {
-        font-size: 48px;
+        width: 300px;
         padding-left: 80px;
         padding-top: 250px;
     }
@@ -542,7 +539,7 @@ a {
     }
 
     .text-content{
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 25px;
         width: 100%;
     }
@@ -584,7 +581,7 @@ a {
 {
 
     .banner .title {
-        font-size: 18px;
+        width: 150px;
         padding-left: 20px;
         padding-top: 170px;
     }
@@ -643,19 +640,19 @@ a {
 
     #menu a:nth-child(1) li{
         color: #C12E32;
-        background: linear-gradient(to right, #FFF824 0%, #FFF824 160px,  #C12E32 160px ,#C12E32 100%)
+        background: linear-gradient(to right, #FFB800 0%, #FFB800 160px,  #C12E32 160px ,#C12E32 100%)
     }
     #menu a:nth-child(2) li{
         color:#2F006B;
-        background: linear-gradient(to right, #FFF824 0%, #FFF824 160px,  #2F006B 160px ,#2F006B 100%)
+        background: linear-gradient(to right, #FFB800 0%, #FFB800 160px,  #2F006B 160px ,#2F006B 100%)
     }
     #menu a:nth-child(3) li{
         color:#5A5024;
-        background: linear-gradient(to right, #FFF824 0%, #FFF824 160px,  #5A5024 160px ,#5A5024 100%)
+        background: linear-gradient(to right, #FFB800 0%, #FFB800 160px,  #5A5024 160px ,#5A5024 100%)
     }
     #menu a:nth-child(4) li{
         color: #000;
-        background: linear-gradient(to right, #FFF824 0%, #FFF824 160px,  #000 160px ,#000 100%)
+        background: linear-gradient(to right, #FFB800 0%, #FFB800 160px,  #000 160px ,#000 100%)
     }
 
     .slider-block .slick-prev,
@@ -685,7 +682,7 @@ a {
     }
 
     .text-content{
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 15px;
     }
 
